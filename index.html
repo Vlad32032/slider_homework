@@ -1,0 +1,89 @@
+<!--    Слайдер на JS   -->
+
+<!-- В рамках этого проекта вам нужно сделать слайдер* для сайта.
+    Это автономная часть которую можно в дальнейшем внедрить в рабочий сайт. 
+
+    Ваша основная задача — преобразовать внешний вид сайта, так чтобы на нем менялись изображения и информация об объекте
+
+    Управляющие элементы, которые вам нужно установить и которые являются условиями проекта:
+
+        1. Стрелки (переключают слайды по кольцу. То есть после слайда №3 снова пойдет слайд №1);
+        2. Кружочки между стрелками (включают нужный слайд);
+        3. Ссылки сверху слайдера (включают нужный слайд). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mobile-style.css" rel="stylesheet">
+    <title>IC "Repair Design Project"</title>
+</head>
+<body>
+    <main>
+        <section class="projects" id="projects-link">
+            <div class="wrapper">
+                <div class="wrapper-navigation-projects">
+                    <ul class="navigation navigation-projects yeseva-one">
+                        <li class="list-item color-mod">Rostov-on-Don, Admiral<hr class="hr-line hr-line-block" ></li>
+                        <li class="list-item">Sochi Thieves<hr class="hr-line"></li>
+                        <li class="list-item">Rostov-on-Don Patriotic<hr class="hr-line"></li>
+                    </ul>
+                </div>
+                <div class="completed-projects-wrapper">
+                    <div class="completed-projects">
+                        <div class="completed-projects-title-wrapper">
+                            <div class="completed-projects-title-wrapper-mini">
+                                <h2 class="completed-projects-title color-mod yeseva-one">Completed<br>projects</h2>
+                                <hr class="hr-line hr-line-completed-projects">
+                            </div>
+                            <p class="completed-projects-text">Only a small part of the work performed 
+                                by our company is presented on the site. For 14 years on in the construction<br>
+                                market we have made happy more than 1000 families</p>
+                       </div>
+                        <div class="completed-projects-description">
+                            <div class="description description-one">
+                                <div class="description-city">
+                                    <h3 class="completed-projects-minititle color-mod yeseva-one">City:</h3>
+                                    <p class="completed-projects-minitext">Rostov-on-Don<br>LCD admiral</p>
+                                </div>
+                                <div class="description-cost">
+                                    <h3 class="completed-projects-minititle color-mod yeseva-one">apartment area:</h3>
+                                    <p class="completed-projects-minitext">81 m2</p>
+                                </div>
+                            </div>
+                            <div class="description description-two">
+                                <div class="description-city">
+                                    <h3 class="completed-projects-minititle color-mod yeseva-one">Repair time:</h3>
+                                    <p class="completed-projects-minitext">3.5 months</p>
+                                </div>
+                                <div class="description-cost">
+                                    <h3 class="completed-projects-minititle color-mod yeseva-one">Repair Cost:</h3>
+                                    <p class="completed-projects-minitext">Upon request</p>
+                                </div>
+                            </div>
+                            <div class="completed-projects-arrow">
+                                <button class="completed-projects-arrow-l"><img src="img/svg/arrow-l.svg" alt="arrow L"></button>
+                                <button class="completed-projects-arrow-point-one point active-point"></button>
+                                <button class="completed-projects-arrow-point point"></button>
+                                <button class="completed-projects-arrow-point point"></button>
+                                <button class="completed-projects-arrow-r"><img src="img/svg/arrow-r.svg" alt="arrow R"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <img class="" src="img/completed-projects-1.jpg" alt="completed projects foto 1">
+                        <img class="gallery-none" src="img/completed-projects-2.jpg" alt="completed projects foto 2">
+                        <img class="gallery-none" src="img/completed-projects-3.jpg" alt="completed projects foto 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script/script.js"></script>
+</body>
+</html>

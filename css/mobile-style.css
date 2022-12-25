@@ -1,0 +1,814 @@
+@media screen and (max-width: 1400px) {
+
+    .gallery{
+        margin-left: 20px;
+    }
+
+    .reviews-ul-wrapper {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .wrapper-header {
+        max-width: 1200px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .wrapper {
+        max-width: 1000px;
+    }
+
+    .phone-link {
+        display: none;
+    }
+
+    .navigation-link {
+        margin-right: 35px;
+    }
+
+    .list-item:first-child {
+        margin-left: 134px;
+    }
+
+    .gallery {
+            display: none;
+    }
+
+    .gallery-mob {
+        display: block;
+        position: relative;
+        width: 678px;
+        height: 482px;
+        margin-bottom: 40px;
+    }
+
+    .gallery-mob img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .types-of-repair-wrapper {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .our-clients-wrapper {
+        flex-wrap: wrap;
+    }
+    
+    .our-clients-card-wrapper {
+        margin-top: 40px;
+    }
+
+    .card-wrapper {
+        margin-top: 40px;
+    }
+
+    .reviews-ul-wrapper {
+        padding-top: 30px;
+        padding-left: 30px;
+        width: 200px;
+    }
+
+    .reviews-ul-title {
+        display: block;
+        position: relative;
+        width: 300px;
+        top: -200px;
+    }
+
+    .gallery-mob-two {
+        display: none;
+    }
+
+    .gallery-mob button {
+        background: none;
+        border: none;
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .gallery-mob button img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery-mob button:hover {
+        transition: 0.5s;
+        box-shadow: 5px 10px 15px rgba(227, 184, 115, 0.5);
+    }
+
+    .gallery-mob button:active {
+        box-sizing: border-box;
+        border: 3px solid white;
+        transition: 0.2s; 
+    }
+
+    .button-gallery-mob-r {
+        display: block;
+        position: absolute;
+        right: 13px;
+        top: 198px;
+    }
+
+    .button-gallery-mob-l {
+        display: block;
+        position: absolute;
+        left: 14px;
+        top: 198px;
+    }
+
+    .projects {
+        padding-bottom: 450px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .button-phone {
+        display: none;
+    }
+    
+    .wrapper-header nav {
+        display: none;
+    }
+
+    .wrapper-navigation-projects {
+        display: none;
+    }
+    
+    .gallery {
+        display: none;
+    }
+
+    .team {
+        display: none;
+    }
+
+    .reviews-gallery-two {
+        display: none;
+    }
+
+    .our-clients {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .reviews-ul {
+        display: none;
+    }
+
+    .reviews-gallery-two {
+        display: none;
+    }
+
+    .completed-projects-arrow {
+        display: none;
+    }
+
+    .online-control-vidio {
+        display: none;
+    }
+
+    .form-one-checkbox {
+        display: none;
+    }
+
+    .phone-link {
+        display: block;
+    }
+
+    .wrapper {
+        max-width: 700px;
+    }
+
+    .wrapper-header {
+        height: 57px;
+        max-width: 600px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    
+    .wrapper-measurement {
+        margin-top: 0px;
+    }
+
+    .phone-link {
+        margin: 0;
+        color: white;
+    }
+
+    .turnkey-repair {
+        height: auto;
+        padding: 0;
+        padding-top: 85px;
+        padding-bottom: 35px;
+    }
+    
+    .main-title {
+        font-size: 23px;
+        line-height: 31px;
+        height: 60px;
+        width: 339px;
+        margin-left: 18px;
+    }
+
+    .turnkey-repair p {
+        font-size: 14px;
+        line-height: 19px;
+        height: 94px;
+        width: 339px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        margin-left: 18px;
+    }
+
+    .button-cost {
+        height: 51px;
+        width: 339px;
+        margin: 0;
+        margin-bottom: 26px;
+        border-radius: 0;
+        margin-left: 18px;
+    }
+
+    .completed-projects-wrapper {
+        padding: 0;
+    }
+
+    .completed-projects-title {
+        width: 253px;
+        height: 66px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.07em;
+        margin-left: 61px;
+        margin-top: 36px;
+        margin-bottom: 22px;
+    }
+
+    .completed-projects-text {
+        width: 311px;
+        height: 86px;
+        font-size: 11px;
+        line-height: 17px;
+        margin: 0;
+        text-align: center;
+        margin-left: 32px;
+        margin-bottom: 36px;
+    }
+
+    .completed-projects-title-wrapper {
+        margin-bottom: 0;
+    }
+
+    .gallery-mob {
+        display: block;
+        position: relative;
+        width: 650px;
+        margin-bottom: 0;
+        margin-left: 18px;
+    }
+
+    .gallery-mob img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-mob button {
+        background: none;
+        border: none;
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .gallery-mob button img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery-mob button:hover {
+        transition: 0.5s;
+        box-shadow: 5px 10px 15px rgba(227, 184, 115, 0.5);
+    }
+
+    .gallery-mob button:active {
+        box-sizing: border-box;
+        border: 3px solid white;
+        transition: 0.2s; 
+    }
+
+    .button-gallery-mob-r {
+        display: block;
+        position: absolute;
+        right: 13px;
+        top: 198px;
+    }
+
+    .button-gallery-mob-l {
+        display: block;
+        position: absolute;
+        left: 14px;
+        top: 198px;
+    }
+
+    .completed-projects-minititle {
+        font-size: 14px;
+        line-height: 19px;  
+    }
+
+    .completed-projects-minitext {    
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .description-city p {
+        line-height: 15px;
+    }
+
+    .description {
+        margin-left: 18px;
+    }
+
+    .description-one {
+        margin-top: 37px;
+        margin-bottom: 0;
+    }
+
+    .description-one div h3 {
+        height: 20px;
+        margin-bottom: 11px;
+    }
+
+    .description-one div p {
+        height: 37px;
+        margin-bottom: 27px;
+    }
+
+    .description-two div h3 {
+        height: 18px;
+        margin-bottom: 13px;
+    }
+
+    .description-two div p {
+        height: 19px;
+        margin-bottom: 58px;
+    }
+
+    .description-city {
+        width: 129px;
+        margin-right: 31px;
+    }
+
+    .description-two {
+        margin-bottom: 0;
+    }
+
+    .projects {
+        padding-bottom: 826px;
+    }
+
+    .online-control {
+        margin-top: -826px;
+    }
+
+    .online-control-title {
+        width: 224px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .online-control-svg {
+        margin-top: 0;
+        margin-bottom: 40px;
+
+    }
+
+    .online-control-vidio-mob {
+        display: block;
+        position: relative;
+        width: 650px;
+        height: 395px;
+        margin-bottom: 26px;
+    }
+
+    .online-control-vidio-mob img {
+        width: 100%;
+        height: auto;
+    }
+
+    .online-control-vidio-mob button {
+        display: block;
+        position: absolute;
+        background: none;
+        border: none;
+        padding: 0;
+        width: 66px;
+        height: 66px;
+        top: 164px;
+        left: 295px;
+        border-radius: 50%;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    }
+
+    .online-control-vidio-mob button:hover {
+        transition: 0.5s;
+        box-shadow: 5px 10px 15px rgba(227, 184, 115, 0.5);
+    }
+
+    .online-control-vidio-mob button:active {
+        box-sizing: border-box;
+        border: 3px solid white;
+        transition: 0.2s; 
+    }
+
+    .hr-line-online-two {
+        margin-top: 0;
+        margin-bottom: 22px;
+
+    }
+
+    .online-control-p-text {
+        width: 340px;
+        height: 107px;
+        margin-bottom: 61px;
+        font-size: 11px;
+        line-height: 19px;
+        text-align: center;
+        color: white;
+    }
+
+    .form-one {
+        display: block;
+        margin: 0 auto;
+        width: 340px;
+        height: 311px;
+        padding: 30px 70px;
+        background-color: #131313;
+    }
+
+    .form-one-label {
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .form-one-input {
+        background-color: #131313;
+        width: 340px;
+        font-size: 14px;
+        line-height: 19px;
+        border-color: white;
+        color: #FFFFFF;
+    }
+
+    .form-one-input::placeholder {
+        color: white;
+    }
+
+    .form-one-wrapper-input {
+        width: 340px;
+        height: 44px;
+    }
+
+    .form-one-wrapper-one {
+        margin: 0;
+        margin-bottom: 63px;
+    }
+
+    .form-one-wrapper-two {
+        margin: 0;
+        margin-bottom: 27px;
+    }
+
+    .form-one-checkbox-mob {
+        display: flex;
+        height: 18px;
+        color: white;
+        margin-bottom: 62px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    
+    .button-form-one {
+        width: 340px;
+        height: 51px;
+    }
+
+    .types-of-repair {
+        margin-top: 0;
+    }
+
+    .types-of-repair-wrapper {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .types-of-repair-title {
+        width: 257px;
+        height: 26px;
+        text-align: center;
+        margin-top: 58px;
+        margin-bottom: 17px;
+    }
+
+    .card-wrapper {
+        width: 500px;
+        height: 550px;
+        margin: 0;
+        margin-left: 18px;
+        margin-bottom: 59px;
+    }
+    
+    .card-wrapper-img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .card-wrapper-ul {
+        width: 270px;
+        height: 220px;
+        margin: 0;
+        margin-top: -148px;
+        padding: 0;
+        padding-top: 21px;
+
+    }
+
+    .button-types-of-repair {
+        width: 190px;
+        height: 40px;
+        margin: 0;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .card-wrapper-button {
+        margin: 0;
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: -20px;
+    }
+
+    .card-wrapper-ul-title {
+        height: 21px;
+        margin-left: 31px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 21px;
+        color: #363636;
+    }
+
+    .card-wrapper-ul-list {
+        height: 152px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .reviews {
+        display: block;
+        background-image: none;
+        background-color: white;
+        padding: 0;
+    }
+
+    .reviews-flex {
+        display: block;
+    }
+
+    .reviews-ul-wrapper {
+        height: auto;
+        width: 375px;
+        padding: 0;
+    }
+
+    .reviews-ul-title {
+        position: static;
+        width: 340px;
+        height: 66px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        margin-left: 18px;
+        margin-bottom: 24px;
+    }
+
+    .gallery-mob-two {
+        width: 650px;
+    }
+
+    .contacts-form {
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 52px;
+        width: 340px;
+        height: auto;
+    }
+
+    .contacts-form-title {
+        width: 257px;
+        height: 26px; 
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 52px;
+    }
+
+    .contacts-form-line-two {
+        height: 44px;
+        width: 340px;
+        margin-top: 36px;
+        margin-bottom: 22px;
+    }
+
+    .form-two-checkbox-contacts {
+        height: 18px;
+        margin: 0;
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 67px;
+    }
+
+    .button-contacts {
+        margin: 0;
+    }
+
+    .contacts {
+        background-image: none;
+        padding: 0;
+        margin-top: -667px;
+        padding-top: 667px;
+    }
+
+    .contacts-title {
+        width: 320px;
+        height: 71px;       
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 23px;
+        margin-top: 42px;
+    }
+
+    .contacts-svg {
+        margin: 0;
+    }
+
+    .contacts-svg button {
+        height: 39px;
+        width: 39px;
+        margin-top: 0;
+        margin-bottom: 49px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contacts-svg button img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contacts-map {
+        width: 650px;
+        margin-top: 46px;
+        order: -1;
+    }
+
+    .contacts-map img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contacts-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .wrapper {
+        max-width: 375px;
+    }
+
+    .wrapper-header {
+        height: 57px;
+        max-width: 340px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    
+    .gallery-mob {
+        display: block;
+        position: relative;
+        width: 340px;
+        height: 241px;
+        margin-left: 18px;
+    }
+
+    .gallery-mob button {
+        background: none;
+        border: none;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .button-gallery-mob-r {
+        display: block;
+        position: absolute;
+        right: 13px;
+        top: 103px;
+    }
+
+    .button-gallery-mob-l {
+        display: block;
+        position: absolute;
+        left: 14px;
+        top: 103px;
+    }
+    
+    .online-control-title {
+        margin-bottom: 20px;
+        margin-left: 76px;
+    }
+    
+    .online-control-vidio-mob {
+        width: 340px;
+        height: 207px;
+    }
+
+    .online-control-vidio-mob button {
+        width: 37px;
+        height: 37px;
+        top: 85px;
+        left: 152px;
+    }
+
+    .projects {
+        padding-bottom: 826px;
+    }
+
+    .form-one {
+        display: block;
+        background: none;
+        margin: 0;
+        width: 340px;
+        height: 311px;
+        margin-left: 18px;
+        padding: 0;
+    }
+
+    .types-of-repair-wrapper {
+        margin: 0;
+        width: auto;
+    }
+
+    .card-wrapper {
+        width: 340px;
+        height: 484px;
+    }
+
+    .card-wrapper-img {
+        width: 340px;
+        height: 365px;
+    }
+
+    .gallery-mob-two {
+        width: 340px;
+        height: 242px;
+    }
+
+    .contacts-map {
+        width: 340px;
+        height: 245px;
+    }
+    
+    .contacts-form {
+        margin: 0;
+        margin-left: 18px;
+    }
+}
